@@ -1,0 +1,43 @@
+def trade(rsi):
+    if rsi<20:
+        print("_________________________alim yap")
+    elif rsi>80:
+        print("satiş yap________________________")
+    else:
+        print("---pozisyonu koru---")
+from  ders2 import *
+A=['asdd','sadghl','lşghrw','alşdkh']
+y=dovlet(A)
+print(y)
+print(type(y))
+
+z=dovlet2(A)
+print(z)
+print(type(z))
+
+
+
+from se import *
+import random
+
+while True:
+    rsi_=random.randint(1,100)
+    print(rsi_)
+    trade(rsi_)
+def dovlet(arr):
+    try:
+        c = 0
+        while True:
+            x=arr[c]
+            c+=1
+    except:
+        print(c)
+def dovlet2(arr):
+    try:
+        c = 0
+        while True:
+            x=arr[c]
+            c+=1
+    except:
+        pass
+    return c
